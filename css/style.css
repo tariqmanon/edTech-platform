@@ -3,3 +3,9 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.carousel-item img {}
+
+.col-md-4 img {
+    width: 100%;
+}
