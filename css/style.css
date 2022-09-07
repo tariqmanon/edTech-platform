@@ -35,5 +35,9 @@ body {
         text-align: center;
     }
 
+    .title h1 {
+        font-size: 30px;
+    }
+
 
 }
