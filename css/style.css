@@ -9,3 +9,14 @@ body {
 .col-md-4 img {
     width: 100%;
 }
+
+
+/* Responsive Mode */
+
+/* Mobile mode */
+
+@media screen and (max-width:576px) {
+    .register {
+        text-align: center;
+    }
+}
