@@ -7,7 +7,8 @@ body {
 .carousel-item img {}
 
 .col-md-4 img {
-    width: 100%;
+    min-width: 100%;
+    display: block;
 }
 
 
@@ -15,8 +16,24 @@ body {
 
 /* Mobile mode */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:767px) {
     .register {
         text-align: center;
     }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+
+}
+
+/* tablet device */
+
+@media (min-width:768px) and (max-width:992px) {
+    .register {
+        text-align: center;
+    }
+
+
 }
